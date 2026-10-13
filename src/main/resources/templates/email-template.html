@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificación de Recomendaciones y Plan de Acción - SISREC</title>
+</head>
+
+<body style="background-color: #F4F6F9; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; -webkit-font-smoothing: antialiased;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #F4F6F9; margin: 0; padding: 30px 10px;">
+        <tr>
+            <td align="center">
+                <!-- Contenedor Principal Card -->
+                <table style="width: 100%; max-width: 650px; background-color: #ffffff; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); margin: 0 auto; border: 1px solid #E2E8F0;">
+                    
+                    <!-- Encabezado Institucional -->
+                    <tr>
+                        <td style="background-color: #192A67; padding: 25px 30px 20px 30px; text-align: center;">
+                            <h1 style="color: #ffffff; font-size: 20px; font-weight: 700; margin: 0; letter-spacing: 0.5px; line-height: 1.3;">
+                                SISREC — UNIDAD DE AUDITORÍA INTERNA
+                            </h1>
+                            <p style="color: #93C5FD; font-size: 13px; margin: 6px 0 0 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">
+                                Empresa Eléctrica Ambato Regional Centro Norte S.A.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Barra de Asunto y Fecha -->
+                    <tr>
+                        <td style="background-color: #F8FAFC; padding: 15px 30px; border-bottom: 2px solid #E2E8F0;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <h2 style="color: #1E293B; font-size: 15px; margin: 0; font-weight: 700;">
+                                            Notificación de Recomendaciones de Auditoría
+                                        </h2>
+                                    </td>
+                                    <td align="right" style="color: #64748B; font-size: 12px;">
+                                        Generado: <strong style="color: #334155;">{{fecha}}</strong>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Saludo y Notificación -->
+                    <tr>
+                        <td style="padding: 25px 30px 15px 30px;">
+                            <p style="color: #334155; font-size: 15px; line-height: 1.6; margin: 0 0 15px 0;">
+                                Estimado(a) <strong style="color: #0F172A;">{{nombres}} {{apellidos}}</strong>,
+                            </p>
+                            <p style="color: #334155; font-size: 14px; line-height: 1.6; margin: 0; text-align: justify;">
+                                Se le notifica formalmente que ha sido designado(a) como responsable del cumplimiento de recomendaciones emitidas en el informe de auditoría:
+                            </p>
+                            <div style="margin-top: 12px; padding: 12px 16px; background-color: #F1F5F9; border-left: 4px solid #192A67; border-radius: 4px;">
+                                <p style="margin: 0; color: #1E293B; font-size: 14px; font-weight: 600; line-height: 1.4;">
+                                    {{tituloInforme}}
+                                </p>
+                                <p style="margin: 4px 0 0 0; color: #64748B; font-size: 12px;">
+                                    Memorando de Remisión / Aprobación Nro.: <strong style="color: #192A67;">{{memoAprobacion}}</strong>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- SECCIÓN DESTACADA: DIRECTRICES OBLIGATORIAS (PLAN DE ACCIÓN Y VERIFICABLES) -->
+                    <tr>
+                        <td style="padding: 10px 30px 20px 30px;">
+                            <div style="background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 8px; padding: 20px;">
+                                <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                                    <h3 style="color: #1E40AF; font-size: 14px; font-weight: 700; margin: 0; text-transform: uppercase; letter-spacing: 0.5px;">
+                                        📋 DIRECTRICES OBLIGATORIAS PARA EL RESPONSABLE
+                                    </h3>
+                                </div>
+                                <p style="color: #1E3A8A; font-size: 13px; line-height: 1.5; margin: 0 0 15px 0;">
+                                    Para asegurar el cumplimiento metodológico de auditoría y habilitar la entrega de evidencias, cumpla estrictamente con las siguientes disposiciones:
+                                </p>
+
+                                <!-- Paso 1 -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 12px;">
+                                    <tr>
+                                        <td width="32" valign="top" style="padding-right: 10px;">
+                                            <div style="background-color: #1D4ED8; color: #ffffff; width: 26px; height: 26px; border-radius: 50%; text-align: center; line-height: 26px; font-size: 13px; font-weight: bold;">
+                                                1
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #1E293B; font-size: 13px; line-height: 1.5;">
+                                            <strong style="color: #1E40AF;">Registro Obligatorio del Plan de Acción:</strong><br>
+                                            <strong>Antes de proceder con la subida de cualquier documento verificable</strong>, es requisito mandatorio ingresar al sistema SISREC y estructurar la <strong>Matriz del Plan de Acción</strong> con sus actividades y cronograma de ejecución.
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <!-- Paso 2 -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 12px;">
+                                    <tr>
+                                        <td width="32" valign="top" style="padding-right: 10px;">
+                                            <div style="background-color: #D97706; color: #ffffff; width: 26px; height: 26px; border-radius: 50%; text-align: center; line-height: 26px; font-size: 13px; font-weight: bold;">
+                                                2
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #1E293B; font-size: 13px; line-height: 1.5;">
+                                            <strong style="color: #B45309;">Plazo Máximo de Formulación (Hasta 48 Horas):</strong><br>
+                                            Usted dispone de un plazo máximo de <strong>hasta 48 horas posteriores a la notificación</strong> para formular, completar y guardar su plan de acción dentro del sistema. La definición oportuna de estas actividades evitará posteriores retrasos o ampliaciones de plazo.
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <!-- Paso 3 -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="32" valign="top" style="padding-right: 10px;">
+                                            <div style="background-color: #059669; color: #ffffff; width: 26px; height: 26px; border-radius: 50%; text-align: center; line-height: 26px; font-size: 13px; font-weight: bold;">
+                                                3
+                                            </div>
+                                        </td>
+                                        <td valign="top" style="color: #1E293B; font-size: 13px; line-height: 1.5;">
+                                            <strong style="color: #047857;">Carga y Remisión del Verificable Final:</strong><br>
+                                            La carga del <strong>verificable final</strong> que justifica el cumplimiento de la recomendación se habilitará y deberá ser remitida en la <strong>fecha de término planificada en su Plan de Acción</strong> (o el mismo día si culmina de forma anticipada mediante la opción del sistema).
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- TABLA DE RECOMENDACIONES -->
+                    <tr>
+                        <td style="padding: 10px 30px 20px 30px;">
+                            <h3 style="color: #0F172A; font-size: 14px; font-weight: 700; margin: 0 0 10px 0; text-transform: uppercase;">
+                                Detalle de Recomendaciones Asignadas
+                            </h3>
+                            <table width="100%" style="border-collapse: collapse; border: 1px solid #CBD5E1; border-radius: 6px; overflow: hidden;">
+                                <thead>
+                                    <tr style="background-color: #192A67;">
+                                        <th style="padding: 10px 12px; color: #ffffff; font-size: 12px; font-weight: 700; text-align: left; text-transform: uppercase; width: 68%;">
+                                            Recomendación de Auditoría
+                                        </th>
+                                        <th style="padding: 10px 12px; color: #ffffff; font-size: 12px; font-weight: 700; text-align: center; text-transform: uppercase; width: 32%;">
+                                            Fecha Máxima de Cumplimiento
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {{recomendaciones}}
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- MARCO NORMATIVO LEGAL (CGE) -->
+                    <tr>
+                        <td style="padding: 0 30px 20px 30px;">
+                            <div style="background-color: #FEF2F2; border-left: 4px solid #DC2626; padding: 15px; border-radius: 4px;">
+                                <p style="color: #991B1B; font-size: 12px; line-height: 1.5; margin: 0; text-align: justify;">
+                                    <strong>BASE LEGAL DE CUMPLIMIENTO OBLIGATORIO (CONTRALORÍA GENERAL DEL ESTADO):</strong><br>
+                                    <strong>Norma Técnica de Control Interno 600-02 "Evaluaciones periódicas":</strong><br>
+                                    <em>"(...) En el caso de las disposiciones, recomendaciones y observaciones emitidas por los órganos de control, la unidad a la cual éstas son dirigidas <strong>emprenderá de manera efectiva las acciones pertinentes dentro de los plazos establecidos, considerando que éstas son de cumplimiento obligatorio.</strong> (...)"</em>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- BOTÓN ACCESO AL SISTEMA -->
+                    <tr>
+                        <td style="padding: 10px 30px 30px 30px; text-align: center;">
+                            <p style="color: #475569; font-size: 13px; margin: 0 0 15px 0; font-weight: 500;">
+                                Ingrese al sistema SISREC con sus credenciales institucionales para formular su Plan de Acción:
+                            </p>
+                            <a href="https://app.eeasa.com.ec/sisrec" target="_blank" 
+                               style="background-color: #192A67; color: #ffffff; text-decoration: none; padding: 12px 28px; border-radius: 6px; font-size: 14px; font-weight: 700; display: inline-block; box-shadow: 0 2px 6px rgba(25, 42, 103, 0.3); text-transform: uppercase; letter-spacing: 0.5px;">
+                                INGRESAR A SISREC
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- PIE DE PÁGINA -->
+                    <tr>
+                        <td style="background-color: #F8FAFC; padding: 20px 30px; border-top: 1px solid #E2E8F0; text-align: center;">
+                            <p style="color: #94A3B8; font-size: 12px; line-height: 1.5; margin: 0;">
+                                <strong>SISREC</strong> | Sistema de Seguimiento a Recomendaciones de Auditoría<br>
+                                Empresa Eléctrica Ambato Regional Centro Norte S.A. EEASA<br>
+                                <em>Este es un mensaje generado automáticamente por el sistema. Por favor, no responda a este correo electrónico.</em>
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

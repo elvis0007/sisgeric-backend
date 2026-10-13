@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificación SISREC</title>
+</head>
+
+<body style="background-color: #F4F7F6; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; -webkit-font-smoothing: antialiased;">
+    
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #F4F7F6; margin: 0; padding: 40px 10px;">
+        <tr>
+            <td align="center">
+                <table style="width: 100%; max-width: 600px; background-color: #ffffff; border-collapse: collapse; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin: 0 auto;">
+                    
+                    <tr>
+                        <td style="background-color: #192A67; padding: 30px 30px 20px 30px; text-align: center;">
+                            <h1 style="color: #ffffff; font-size: 20px; margin: 0; font-weight: 600; letter-spacing: 0.5px;">
+                                SISREC - UNIDAD DE AUDITORÍA INTERNA
+                            </h1>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="background-color: #F8F9FA; padding: 20px 30px; border-bottom: 1px solid #E5E7EB;">
+                            <h2 style="color: #192A67; font-size: 16px; margin: 0 0 8px 0;">
+                                Notificación: Verificable pendiente de revisión
+                            </h2>
+                            <p style="color: #6B7280; font-size: 13px; margin: 0;">
+                                Fecha - hora de generación: <strong style="color: #374151;">{{fecha}}</strong>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 30px 30px 20px 30px;">
+                            <p style="color: #374151; font-size: 15px; line-height: 1.6; margin: 0 0 15px 0; text-align: justify;">
+                                Estimada auditora operativa <strong style="color: #111827;">{{auditor}}</strong> se le notifica que se ha cargado un nuevo documento verificable pendiente de revisión sobre el informe: <strong style="color: #111827;">{{tituloInforme}}</strong> enviado con memorando nro: <strong style="color: #111827;">{{memoAprobacion}}</strong>.
+                            </p>
+                            <p style="color: #111827; font-size: 14px; line-height: 1.6; margin: 0; text-align: justify;">
+                                <strong><span style="color: #DC2626;">NOTA:</span> RECUERDE REVISAR Y EVALUAR EL DOCUMENTO VERIFICABLE CARGADO POR EL RESPONSABLE PARA PROCEDER CON LA CALIFICACIÓN RESPECTIVA EN EL SISTEMA SISREC.</strong>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 0 30px 30px 30px;">
+                            <table width="100%" style="border-collapse: collapse; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden;">
+                                <tr>
+                                    <td colspan="2" style="background-color: #F3F4F6; padding: 12px 15px; border-bottom: 2px solid #E5E7EB; text-align: left; color: #192A67; font-size: 14px;">
+                                        <strong>Detalle de la recomendación y verificable</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #6B7280; font-size: 13px; width: 35%;">
+                                        <strong>Recomendación:</strong>
+                                    </td>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #111827; font-size: 13px; width: 65%;">
+                                        Recomendación #{{numRecomendacion}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #6B7280; font-size: 13px; vertical-align: top;">
+                                        <strong>Descripción:</strong>
+                                    </td>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #374151; font-size: 13px; text-align: justify; line-height: 1.5;">
+                                        {{recDescripcion}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #6B7280; font-size: 13px;">
+                                        <strong>Responsable:</strong>
+                                    </td>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #111827; font-size: 13px; font-weight: 600;">
+                                        {{nombreResponsable}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #6B7280; font-size: 13px; vertical-align: top;">
+                                        <strong>Detalle Verificable:</strong>
+                                    </td>
+                                    <td style="padding: 10px 15px; border-bottom: 1px solid #E5E7EB; color: #374151; font-size: 13px; line-height: 1.5;">
+                                        {{descripcionVerificable}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px 15px; color: #6B7280; font-size: 13px;">
+                                        <strong>Archivo cargado:</strong>
+                                    </td>
+                                    <td style="padding: 10px 15px; color: #192A67; font-size: 13px; font-weight: 600;">
+                                        {{nombreArchivo}}
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 0 30px 30px 30px;">
+                            <div style="background-color: #FEF2F2; border-left: 4px solid #EF4444; padding: 20px; border-radius: 4px;">
+                                <p style="color: #991B1B; font-size: 13px; line-height: 1.5; margin: 0; text-align: justify;">
+                                    <strong>IMPORTANTE: Las normas de control emitidas por la CONTRALORIA GENERAL DEL ESTADO disponen lo siguiente.</strong><br><br>
+                                    <strong>600-02 Evaluaciones periódicas</strong><br>
+                                    (...) "En el caso de las disposiciones, recomendaciones y observaciones emitidas por los órganos de control, <strong>la unidad a la cual éstas son dirigidas emprenderá de manera efectiva las acciones pertinentes dentro de los plazos establecidos, considerando que éstas son de cumplimiento obligatorio.</strong>" (...)
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding: 0 30px 40px 30px; text-align: center;">
+                            <p style="color: #4B5563; font-size: 14px; font-style: italic; margin: 0 0 15px 0;">
+                                Para proceder con la revisión. Ingrese al SISREC:
+                            </p>
+                            <a href="https://app.eeasa.com.ec/sisrec" target="_blank" style="background-color: #192A67; color: #ffffff; text-decoration: none; padding: 12px 30px; border-radius: 6px; font-size: 14px; font-weight: bold; display: inline-block; box-shadow: 0 2px 4px rgba(25, 42, 103, 0.2);">
+                                [LINK]
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="background-color: #F9FAFB; padding: 20px 30px; border-top: 1px solid #E5E7EB; text-align: center;">
+                            <p style="color: #9CA3AF; font-size: 12px; line-height: 1.5; margin: 0;">
+                                Mensaje generado automáticamente<br>
+                                Por favor no responder este correo
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

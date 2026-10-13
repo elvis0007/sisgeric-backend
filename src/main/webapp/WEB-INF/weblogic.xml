@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+    <!-- Configuración para dar precedencia a las librerías Jackson de la aplicación -->
+    <container-descriptor>
+        <prefer-application-packages>
+            <package-name>com.fasterxml.jackson.*</package-name>
+        </prefer-application-packages>
+        <prefer-application-resources>
+            <resource-name>META-INF/services/com.fasterxml.jackson.*</resource-name>
+        </prefer-application-resources>
+    </container-descriptor>
+</weblogic-web-app> 

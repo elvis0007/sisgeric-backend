@@ -1,0 +1,159 @@
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: BODEGA No. 1
+De acuerdo al listado proporcionado por el Área de Costos, 78 ítems para remate corresponden a la Bodega Nro. 1 y a la fecha de inspección que fue al 30 de julio de 2025, se determinaron los siguientes aspectos
+	Se identificaron 37 ítems correspondientes a transformadores almacenados en la Subestación Montalvo, los cuales representan el 46% del total de bienes propuestos para el remate, equivalentes a 372 trafos de diferentes capacidades.
+
+Como resultado de la revisión de las pruebas de PCB’s proporcionadas por el responsable de la Bodega Nro. 1, se excluyeron 6 transformadores del listado de bienes para la baja, al determinarse que tienen posibles PCB’s y no disponen del análisis de cromatografía requerido para sustentar la disposición final.
+
+REC COD: 869 | NUM: 1 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director Financiero
+
+1.	Dispondrá al Responsable de la Bodega Nro. 1 que, previo a la entrega los listados al Área de Costos para el inicio del proceso de remate, verifique que los transformadores cuenten con las pruebas de PCB’s y cuando corresponda el análisis cromatográfico, a fin de sustentar la disposición final, cumpliendo con la normativa ambiental y los procedimientos institucionales; 
+
+    -> DET COD: 2450 | ESTADO DET: 1 | RESP: DAVID HERNAN CARRASCO ORTIZ | DEP: DEPARTAMENTO FINANCIERO | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2451 | ESTADO DET: 1 | RESP: LUIS ALFONSO LIMA ARIAS | DEP: DEPARTAMENTO FINANCIERO | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: BODEGA No. 1
+De acuerdo al listado proporcionado por el Área de Costos, 78 ítems para remate corresponden a la Bodega Nro. 1 y a la fecha de inspección que fue al 30 de julio de 2025, se determinaron los siguientes aspectos
+	Se identificaron 37 ítems correspondientes a transformadores almacenados en la Subestación Montalvo, los cuales representan el 46% del total de bienes propuestos para el remate, equivalentes a 372 trafos de diferentes capacidades.
+
+Como resultado de la revisión de las pruebas de PCB’s proporcionadas por el responsable de la Bodega Nro. 1, se excluyeron 6 transformadores del listado de bienes para la baja, al determinarse que tienen posibles PCB’s y no disponen del análisis de cromatografía requerido para sustentar la disposición final.
+
+REC COD: 870 | NUM: 2 | FECHA_MAX: 2026-09-30
+REC DESC: Al Director Financiero
+2.	Dispondrá a la Jefe de Área 2 Costos revise continuamente el archivo fotográfico de los bienes de las bodegas que constan en el Módulo de Bodegas del Sistema Informático Financiero SIF, con el propósito de que el archivo fotográfico se encuentre actualizado conforme lo señalado en el procedimiento para la constatación física de inventarios del Instructivo para la Administración y Control de los Bienes de la EEASA.
+    -> [ALERTA] NO TIENE REGISTROS EN AI_REC_DETALLE_RECOMENDACION!
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 1
+	Al revisar al muestreo en el módulo de Bodegas del Sistema Informático Financiero, SIF, se identificó que el ítem EPE448 Pararrayo en el ícono de imagen del material no se despliega la fotografía del bien, como se evidencia a continuación
+REC COD: 871 | NUM: 2 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director Financiero
+2.	Dispondrá a la Jefe de Área 2 Costos revise continuamente el archivo fotográfico de los bienes de las bodegas que constan en el Módulo de Bodegas del Sistema Informático Financiero SIF, con el propósito de que el archivo fotográfico se encuentre actualizado conforme lo señalado en el procedimiento para la constatación física de inventarios del Instructivo para la Administración y Control de los Bienes de la EEASA.
+    -> DET COD: 2452 | ESTADO DET: 1 | RESP: DAVID HERNAN CARRASCO ORTIZ | DEP: DEPARTAMENTO FINANCIERO | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2453 | ESTADO DET: 1 | RESP: MARIA JOSE OJEDA NUÑEZ | DEP: DEPARTAMENTO FINANCIERO | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 2
+En el listado de remate enviado por el Área de Costos constan 05 ítems que no fueron segregados para la disposición final a relleno sanitario y fundición por parte del Jefe de Gestión Ambiental por lo que éstos fueron excluidos del listado,
+REC COD: 872 | NUM: 3 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director de Planificación 
+Dispondrá al Jefe de Área 2 Gestión Ambiental, lo siguiente:
+3. Segregará los ítems HMD501 Distanciómetro, MI0000 Pinza Voltaje Amperimétrica, HEP290, Polipasto, HMP003 Taladro Inalámbrico, y HMT193 Llave de Rueda almacenados en la Bodega No. 2 para su disposición final a relleno sanitario o fundición para el próximo proceso de remate que realice la Empresa;
+
+    -> DET COD: 2454 | ESTADO DET: 1 | RESP: MARIO IVAN MORALES PAZMINO | DEP: DEPARTAMENTO DE PLANIFICACION | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2455 | ESTADO DET: 1 | RESP: CARLOS ALFREDO CASTILLO GAVILANES | DEP: DEPARTAMENTO DE PLANIFICACION | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 2
+En el listado de remate enviado por el Área de Costos constan 05 ítems que no fueron segregados para la disposición final a relleno sanitario y fundición por parte del Jefe de Gestión Ambiental por lo que éstos fueron excluidos del listado,
+REC COD: 873 | NUM: 4 | FECHA_MAX: 2026-10-20
+REC DESC: Al Director de Planificación 
+Dispondrá al Jefe de Área 2 Gestión Ambiental, lo siguiente:
+4.	Revisará previamente a la inspección de los materiales clasificados para la disposición final mediante relleno sanitario, fundición y gestión ambiental remitidos por el Área de Costos para el proceso de remate público el listado de materiales para remate, a fin de que la disposición final incluya todos los materiales que correspondan.
+
+    -> [ALERTA] NO TIENE REGISTROS EN AI_REC_DETALLE_RECOMENDACION!
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 7
+	En relación a los transformadores, de acuerdo al listado de remate proporcionado por el Área de Costos, la cantidad de transformadores para la baja suman 132, de los cuales se deben excluir 41 equipos del listado de bienes para la baja en vista que se consideran con posibles PCB´s y no disponen del correspondiente análisis de cromatografía requerido para sustentar la disposición final, estableciéndose el total de 91 transformadores para darse de baja. 
+REC COD: 874 | NUM: 5 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director DZO Pastaza
+Dispondrá al Responsable de la Bodega No. 7 lo siguiente:
+5.	Coordinará con el Jefe de Sección 3 Transformadores se realice del análisis cromatográfico de los 41 transformadores que tienen posibles PCB´s identificados en el presente informe y que fueron incluidos en el listado para Remate Público I Etapa 2026;
+
+    -> DET COD: 2456 | ESTADO DET: 1 | RESP: LENIN ARTURO MONTAÑO RIVAS | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2457 | ESTADO DET: 1 | RESP: ESTEBAN JAVIER CONDE RAMIREZ | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 7
+	En relación a los transformadores, de acuerdo al listado de remate proporcionado por el Área de Costos, la cantidad de transformadores para la baja suman 132, de los cuales se deben excluir 41 equipos del listado de bienes para la baja en vista que se consideran con posibles PCB´s y no disponen del correspondiente análisis de cromatografía requerido para sustentar la disposición final, estableciéndose el total de 91 transformadores para darse de baja. 
+REC COD: 875 | NUM: 6 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director DZO Pastaza
+Dispondrá al Responsable de la Bodega No. 7 lo siguiente:
+6.	Verificará que previo a la entrega de los listados de materiales al Área de Costos para el inicio del proceso de remate público, los transformadores cuenten con las pruebas de PCB’s y cuando corresponda el análisis de cromatografía, a fin de sustentar la disposición final, cumpliendo con la normativa ambiental y los procedimientos institucionales;
+
+    -> DET COD: 2458 | ESTADO DET: 1 | RESP: LENIN ARTURO MONTAÑO RIVAS | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2459 | ESTADO DET: 1 | RESP: ESTEBAN JAVIER CONDE RAMIREZ | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 7
+	En relación a los transformadores, de acuerdo al listado de remate proporcionado por el Área de Costos, la cantidad de transformadores para la baja suman 132, de los cuales se deben excluir 41 equipos del listado de bienes para la baja en vista que se consideran con posibles PCB´s y no disponen del correspondiente análisis de cromatografía requerido para sustentar la disposición final, estableciéndose el total de 91 transformadores para darse de baja. 
+REC COD: 876 | NUM: 7 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director de Distribución
+7.	Dispondrá al Jefe de Sección 3 Transformadores que en los informes de los resultados de las pruebas PCB’s realizados a los transformadores de la bodega No. 7 DZO Pastaza se detalle los datos generales de los equipos como son: serie, marca, Volt. MV, Volt., BV, tipo, potencia, número EEASA y fase; y en el evento de no ser factible incluir toda la información obligatoriamente se detalle el número EEASA del transformador, insumo necesario para efectuar las constataciones físicas en los procesos de remate; así como para identificar los transformadores que requieran el análisis cromatográfico correspondiente.
+
+    -> DET COD: 2460 | ESTADO DET: 1 | RESP: JIMMY PAUL MUYULEMA MASAQUIZA | DEP: DEPARTAMENTO DE DISTRIBUCION | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2461 | ESTADO DET: 1 | RESP: SANTIAGO GIOVANNY ESPINOSA ANDRANGO | DEP: DEPARTAMENTO DE DISTRIBUCION | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 8
+	Con respecto a los transformadores, se indica que de los 11 ítems que constan en el listado de remate proporcionado por el Área de Costos, se disponen de 43 transformadores de diferentes capacidades, de los cuales se excluyeron 13 trafos del listado de bienes para la baja en vista que se consideran con posibles PCB´s y no disponen del correspondiente análisis de cromatografía requerido para sustentar la disposición final, estableciéndose el total de 30 transformadores para darse de baja
+REC COD: 877 | NUM: 8 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director DZO Pastaza
+
+Dispondrá al Responsable de la Bodega No. 8 lo siguiente:
+8.	Coordinar con el Jefe de Sección 3 Transformadores se realice el análisis cromatográfico de los 13 transformadores identificados en el presente informe que no disponen de ésta prueba y que fueron incluidos en el listado para Remate Público I Etapa 2026;
+
+    -> DET COD: 2462 | ESTADO DET: 1 | RESP: LENIN ARTURO MONTAÑO RIVAS | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2463 | ESTADO DET: 1 | RESP: JUAN ISAIAS HUEBLA YUMI | DEP: AREA PALORA | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 8
+	Con respecto a los transformadores, se indica que de los 11 ítems que constan en el listado de remate proporcionado por el Área de Costos, se disponen de 43 transformadores de diferentes capacidades, de los cuales se excluyeron 13 trafos del listado de bienes para la baja en vista que se consideran con posibles PCB´s y no disponen del correspondiente análisis de cromatografía requerido para sustentar la disposición final, estableciéndose el total de 30 transformadores para darse de baja
+REC COD: 878 | NUM: 9 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director DZO Pastaza
+Dispondrá al Responsable de la Bodega No. 8 lo siguiente:
+9.	Verificará que previo a la entrega de los listados al Área de Costos para el inicio del proceso de remate público, los transformadores cuenten con las pruebas de PCB’s y cuando corresponda con el análisis cromatográfico, a fin de sustentar la disposición final, cumpliendo con la normativa ambiental y los procedimientos institucionales; 
+
+    -> DET COD: 2464 | ESTADO DET: 1 | RESP: LENIN ARTURO MONTAÑO RIVAS | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2465 | ESTADO DET: 1 | RESP: JUAN ISAIAS HUEBLA YUMI | DEP: AREA PALORA | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 8
+	En el listado proporcionado por el Área de Costos del Departamento Financiero, se identificó 5 postes de hormigón que se encuentran con calificación 2 (mal estado) en la Bodega Nro. 8
+Auditoría Interna al realizar la inspección de los 5 postes de hormigón, el responsable de la bodega indicó que se encuentran en la propiedad del señor César Ortiz, con quien el ex-bodeguero realizó acuerdos para el almacenamiento de estos bienes, y que actualmente la propiedad está cerrada y no se puede ingresar para verificar.
+REC COD: 879 | NUM: 10 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director DZO Pastaza
+Dispondrá al Responsable de la Bodega No. 8 lo siguiente:
+10.	Coordinar la entrega de los 5 postes de hormigón que se encuentran mal estado y que son parte del listado del remate al oferente ganador, en el evento de que no se entreguen los bienes, se notificará inmediatamente al Jefe inmediato, Director Departamental y Director Financiero, para que tomen las acciones pertinentes.
+
+    -> DET COD: 2466 | ESTADO DET: 1 | RESP: LENIN ARTURO MONTAÑO RIVAS | DEP: DZO PASTAZA | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2467 | ESTADO DET: 1 | RESP: JUAN ISAIAS HUEBLA YUMI | DEP: AREA PALORA | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 8
+	Finalmente, en el listado de remate enviado por el Área de Costos constan 03 ítems que no fueron segregados para la disposición final a relleno sanitario y fundición por parte del Jefe de Gestión Ambiental.
+
+
+REC COD: 880 | NUM: 11 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director de Planificación
+11.	Dispondrá al Jefe de Área 2 Gestión Ambiental segregue los ítems HEE170 Pértiga Extensión 35' HASTINGS HV-235, HEP262 Rana Comelon y SXV930 Separador de Fases BRONAL-SF almacenados en la Bodega No. 8 para su disposición final a relleno sanitario para el próximo proceso de remate de la Empresa.
+
+    -> DET COD: 2468 | ESTADO DET: 1 | RESP: MARIO IVAN MORALES PAZMINO | DEP: DEPARTAMENTO DE PLANIFICACION | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2469 | ESTADO DET: 1 | RESP: CARLOS ALFREDO CASTILLO GAVILANES | DEP: DEPARTAMENTO DE PLANIFICACION | ESTADO RESP: 1 | FECHA INDIV: null
+--------------------------------------------------
+INF MEMO: AI-0133-2026 | APROB: PE-1392-2026
+TITULO: ACTA DE VERIFICACIÓN DE LOS BIENES OBJETO PARA LA BAJA MEDIANTE REMATE PÚBLICO EEASA AÑO 2026 I ETAРА.
+CONCLUSION: Bodega No. 9
+	Finalmente, en el listado de relleno sanitario enviado por el Área de Costos constan 2 materiales que no fueron egresados de la bodega No. 9 para la disposición final por parte del Jefe de Área Gestión Ambiental,
+REC COD: 881 | NUM: 12 | FECHA_MAX: 2026-09-20
+REC DESC: Al Director de Planificación 
+12.	Dispondrá al Jefe de Área 2 Gestión Ambiental considere los ítems HED101 Detector de voltaje baja tensión y HED102 Detector de voltaje media tensión almacenados en la Bodega No. 9 para su disposición final a relleno sanitario en el próximo proceso de remate de la Empresa.
+
+    -> DET COD: 2470 | ESTADO DET: 1 | RESP: MARIO IVAN MORALES PAZMINO | DEP: DEPARTAMENTO DE PLANIFICACION | ESTADO RESP: 1 | FECHA INDIV: null
+    -> DET COD: 2471 | ESTADO DET: 1 | RESP: CARLOS ALFREDO CASTILLO GAVILANES | DEP: DEPARTAMENTO DE PLANIFICACION | ESTADO RESP: 1 | FECHA INDIV: null

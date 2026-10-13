@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificación SISREC</title>
+</head>
+
+<body style="background-color: #F4F7F6; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; -webkit-font-smoothing: antialiased;">
+    
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #F4F7F6; margin: 0; padding: 40px 10px;">
+        <tr>
+            <td align="center">
+                <!-- Contenedor principal tipo Card -->
+                <table style="width: 100%; max-width: 600px; background-color: #ffffff; border-collapse: collapse; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin: 0 auto;">
+                    
+                    <!-- Encabezado corporativo -->
+                    <tr>
+                        <td style="background-color: #192A67; padding: 30px 30px 20px 30px; text-align: center;">
+                            <h1 style="color: #ffffff; font-size: 20px; margin: 0; font-weight: 600; letter-spacing: 0.5px;">
+                                SISREC - UNIDAD DE AUDITORÍA INTERNA
+                            </h1>
+                        </td>
+                    </tr>
+
+                    <!-- Subtítulo y Fecha -->
+                    <tr>
+                        <td style="background-color: #F8F9FA; padding: 20px 30px; border-bottom: 1px solid #E5E7EB;">
+                            <h2 style="color: #192A67; font-size: 16px; margin: 0 0 8px 0;">
+                                Ha sido reasignado como responsable de una recomendación
+                            </h2>
+                            <p style="color: #6B7280; font-size: 13px; margin: 0;">
+                                Fecha - hora de generación: <strong style="color: #374151;">{{fecha}}</strong>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Saludo y Mensaje Principal -->
+                    <tr>
+                        <td style="padding: 30px 30px 20px 30px;">
+                            <p style="color: #374151; font-size: 15px; line-height: 1.6; margin: 0; text-align: justify;">
+                                Estimado (a) <strong style="color: #111827;">{{nombres}} {{apellidos}}</strong>, se le notifica que ha sido reasignado (a) como responsable de cumplimiento de la siguiente recomendación de auditoría.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Tabla de Detalles de la Reasignación -->
+                    <tr>
+                        <td style="padding: 0 30px 30px 30px;">
+                            <table width="100%" style="border-collapse: collapse; border: 1px solid #E5E7EB; border-radius: 6px; overflow: hidden;">
+                                <tr>
+                                    <td style="background-color: #F8F9FA; padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #4B5563; font-size: 14px; width: 40%;">
+                                        <strong>Título del informe:</strong>
+                                    </td>
+                                    <td style="padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #111827; font-size: 14px; width: 60%;">
+                                        <span>{{titulo_informe}}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: #F8F9FA; padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #4B5563; font-size: 14px;">
+                                        <strong>Memorando Auditoría:</strong>
+                                    </td>
+                                    <td style="padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #111827; font-size: 14px;">
+                                        <span>{{memorando}}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: #F8F9FA; padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #4B5563; font-size: 14px;">
+                                        <strong>Memorando Presidencia:</strong>
+                                    </td>
+                                    <td style="padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #111827; font-size: 14px;">
+                                        <span>{{memoaprobacion}}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: #F8F9FA; padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #4B5563; font-size: 14px;">
+                                        <strong>Recomendación:</strong>
+                                    </td>
+                                    <td style="padding: 12px 15px; border-bottom: 1px solid #E5E7EB; color: #111827; font-size: 14px; text-align: justify;">
+                                        <span>{{recomendacion}}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="background-color: #FEF2F2; padding: 12px 15px; color: #991B1B; font-size: 14px;">
+                                        <strong>Fecha máxima de cumplimiento:</strong>
+                                    </td>
+                                    <td style="background-color: #FEF2F2; padding: 12px 15px; color: #DC2626; font-size: 14px; font-weight: bold;">
+                                        <span>{{fecha_max_cumplimiento}}</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Directrices Obligatorias de Plan de Acción y Verificables -->
+                    <tr>
+                        <td style="padding: 0 30px 20px 30px;">
+                            <div style="background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 8px; padding: 18px;">
+                                <h3 style="color: #1E40AF; font-size: 13px; font-weight: 700; margin: 0 0 10px 0; text-transform: uppercase;">
+                                    📋 DIRECTRICES OBLIGATORIAS PARA EL RESPONSABLE
+                                </h3>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 8px;">
+                                    <tr>
+                                        <td width="28" valign="top">
+                                            <div style="background-color: #1D4ED8; color: #ffffff; width: 22px; height: 22px; border-radius: 50%; text-align: center; line-height: 22px; font-size: 11px; font-weight: bold;">1</div>
+                                        </td>
+                                        <td valign="top" style="color: #1E293B; font-size: 12px; line-height: 1.4;">
+                                            <strong style="color: #1E40AF;">Registro Obligatorio del Plan de Acción:</strong> Antes de la subida de los verificables, deberá estructurar y registrar la Matriz del Plan de Acción en el sistema.
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 8px;">
+                                    <tr>
+                                        <td width="28" valign="top">
+                                            <div style="background-color: #D97706; color: #ffffff; width: 22px; height: 22px; border-radius: 50%; text-align: center; line-height: 22px; font-size: 11px; font-weight: bold;">2</div>
+                                        </td>
+                                        <td valign="top" style="color: #1E293B; font-size: 12px; line-height: 1.4;">
+                                            <strong style="color: #B45309;">Plazo Máximo de 48 Horas:</strong> Dispone de un plazo de hasta <strong>48 horas posteriores a esta notificación</strong> para formular su plan de acción dentro de SISREC.
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="28" valign="top">
+                                            <div style="background-color: #059669; color: #ffffff; width: 22px; height: 22px; border-radius: 50%; text-align: center; line-height: 22px; font-size: 11px; font-weight: bold;">3</div>
+                                        </td>
+                                        <td valign="top" style="color: #1E293B; font-size: 12px; line-height: 1.4;">
+                                            <strong style="color: #047857;">Carga del Verificable Final:</strong> El documento o evidencia final se subirá en la <strong>fecha final del día en que se haya planificado</strong> según su Plan de Acción (o anticipadamente si culmina antes).
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Alerta de Normativas -->
+                    <tr>
+                        <td style="padding: 0 30px 30px 30px;">
+                            <div style="background-color: #FEF2F2; border-left: 4px solid #EF4444; padding: 20px; border-radius: 4px;">
+                                <p style="color: #991B1B; font-size: 13px; line-height: 1.5; margin: 0; text-align: justify;">
+                                    <strong>Las normas emitidas por la CONTRALORÍA GENERAL DEL ESTADO disponen lo siguiente.</strong><br><br>
+                                    <strong>600-02 Evaluaciones periódicas</strong><br>
+                                    (...) "En el caso de las disposiciones, recomendaciones y observaciones emitidas por los órganos de control, <strong>la unidad a la cual éstas son dirigidas emprenderá de manera efectiva las acciones pertinentes dentro de los plazos establecidos, considerando que éstas son de cumplimiento obligatorio.</strong>" (...)
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Llamado a la Acción (CTA) -->
+                    <tr>
+                        <td style="padding: 0 30px 40px 30px; text-align: center;">
+                            <p style="color: #4B5563; font-size: 14px; font-style: italic; margin: 0 0 15px 0;">
+                                Para proceder con el cumplimiento, ingrese al SISREC:
+                            </p>
+                            <a href="https://app.eeasa.com.ec/sisrec" target="_blank" style="background-color: #192A67; color: #ffffff; text-decoration: none; padding: 12px 30px; border-radius: 6px; font-size: 14px; font-weight: bold; display: inline-block; box-shadow: 0 2px 4px rgba(25, 42, 103, 0.2);">
+                                [LINK]
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- Pie de página -->
+                    <tr>
+                        <td style="background-color: #F9FAFB; padding: 20px 30px; border-top: 1px solid #E5E7EB; text-align: center;">
+                            <p style="color: #9CA3AF; font-size: 12px; line-height: 1.5; margin: 0;">
+                                Mensaje generado automáticamente<br>
+                                Por favor no responder este correo
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

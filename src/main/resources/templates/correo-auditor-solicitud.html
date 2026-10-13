@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solicitud preaprobada</title>
+</head>
+<body style="margin:0;padding:0;background:#f5f7fb;font-family:Arial,Helvetica,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:20px;">
+    <tr>
+      <td align="center">
+        <table width="640" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;border:1px solid #dcdcdc;">
+          <tr>
+            <td style="background:#102a5e;color:#ffffff;padding:18px 20px;font-size:18px;font-weight:bold;">
+              SISREC - Solicitud Preaprobada
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px;color:#1f2937;font-size:14px;line-height:1.6;">
+              Estimado(a) <strong>{{auditor}}</strong>,<br/><br/>
+              Se ha preaprobado una solicitud de ampliación de plazo y se adjunta el PDF actualizado con la sección <strong>APROBADO POR</strong>.
+              <br/><br/>
+              <strong>Informe:</strong> <span>{{tituloInforme}}</span><br/>
+              <strong>Memorando:</strong> <span>{{memoAprobacion}}</span><br/>
+              <strong>Número de recomendación:</strong> <span>{{numRecomendacion}}</span><br/>
+              <strong>Solicitante:</strong> <span>{{nombreSolicitante}}</span><br/>
+              <strong>Archivo adjunto:</strong> <span>{{nombreArchivo}}</span><br/>
+              <strong>Fecha:</strong> <span>{{fecha}}</span>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:14px 20px;color:#6b7280;font-size:12px;border-top:1px solid #e5e7eb;">
+              Mensaje generado automáticamente por SISREC. Por favor no responda este correo.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

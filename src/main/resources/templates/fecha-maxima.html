@@ -1,0 +1,107 @@
+<!--Autor: Mateo Díaz-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"
+        style="background-color: #ffffff; font-family: Helvetica, Arial, sans-serif; margin: 0; padding: 0;">
+        <tr>
+            <td align="center" style="padding: 30px 10px;">
+                <!-- Contenedor principal -->
+                <table
+                    style="width: 100%; max-width: 600px; border-collapse: collapse; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0 auto; border: 1px solid #D6D6D6;">
+                    <!-- Encabezado -->
+                    <tr>
+                        <td style="background-color: #192A67; padding: 20px 20px 0px 20px;">
+                            <h1 style="color: #ffffff; font-size: 20px; margin: 0; line-height: 1.4;">SISREC - UNIDAD DE AUDITORÍA INTERNA 
+                            </h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td
+                            style="background-color: #192A67; padding:0px 5px 20px 20px; border-bottom: 1px solid #ffffff;">
+                            <table width="100%">
+                                <tr>
+                                    <td style="color: #ffffff; font-size: 14px;">
+                                        <h2 style="color: #ffffff; font-size: 14px; margin: 0; line-height: 1.4;">Notificación: Cambio de fecha máx. de cumplimiento.</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="color: #ffffff; font-size: 13px;">Fecha - hora de generación: <strong>{{fecha}}</strong></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 25px 20px 10px;">
+                            <p style="color: #2c2c2c; font-size: 15px; line-height: 1.5; margin: 0 0 20px;">
+                                Estimado (a) <strong>{{recomendacion.nombreApellidoRS}}</strong> se le notifica que acerca del informe <strong>{{recomendacion.infTitulo}}</strong> enviado con el memorando: <strong>{{recomendacion.infMemoAprobacion}}</strong>. 
+                                Hubo un cambio de fecha máxima de cumplimiento para la siguiente recomendación:
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px; background-color: #F8F8FA; border-top: 2px solid #ffffff;">
+                            <table width="100%">
+                                <tr>
+                                    <td style="padding: 12px 0; border-bottom: 1px solid #D6D6D6;">
+                                        <strong>Recomendación</strong>
+                                    </td>
+                                    <td style="padding: 12px 0; border-bottom: 1px solid #D6D6D6;">
+                                        <strong>Nueva fecha máx. de cumplimiento</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 12px 0; color: #2c2c2c; font-size: 13px;">
+                                        <span>{{recomendacion.recDescripcion}}</span>
+                                    </td>
+                                    <td style="padding: 12px 0; color: #2c2c2c; font-size: 13px; text-align: center;">
+                                        <strong>{{recomendacion.recFechaMaxCumplimiento}}</strong>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table> <br>
+                <div style="background-color: #ffeaea; border-left: 4px solid #f50000; padding: 20px; border-radius: 10px; margin: auto; max-width: 550px;">
+                    <table width="100%" style="max-width: 600px; margin-top: 0px; margin-bottom: 0px;">
+                        <tr>
+                            <td style="padding: 5px; text-align: justify;">
+                                <p style="font-style: oblique; font-size: smaller;">
+                                <strong>Las normas emitidas por la CONTRALORIA GENERAL DEL ESTADO disponen lo siguiente. </strong><br><br>
+                                <strong>600-02 Evaluaciones periódicas</strong> <br>
+                                (...) "En el caso de las disposiciones, recomendaciones y observaciones emitidas por los
+                                órganos de control,
+                                <strong>la unidad a la cual éstas son dirigidas emprenderá de manera efectiva las acciones
+                                pertinentes dentro
+                                de los plazos establecidos, considerando que éstas son de cumplimiento obligatorio.</strong>" (...)<br></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <strong width="100%" style="font-size: small; font-style: italic;">Para proceder con el cumplimiento. Ingrese al SISREC: <a href="https://app.eeasa.com.ec/sisrec" target="_blank">[LINK]</a></strong>
+                <br>
+                <table width="100%" style="max-width: 600px; margin-top: 20px;">
+                    <tr>
+                        <td style="padding: 15px 0; border-top: 1px solid #D6D6D6;">
+                            <p style="color: #7D7D7D; font-size: 12px; text-align: center; margin: 0;">
+                                Mensaje generado automáticamente<br>
+                                Por favor no responder este correo
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

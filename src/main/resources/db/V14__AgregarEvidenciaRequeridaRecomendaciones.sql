@@ -1,0 +1,15 @@
+-- Ejecutar antes de desplegar el backend con evidencia requerida.
+DECLARE
+    columna_existe NUMBER;
+BEGIN
+    SELECT COUNT(*) INTO columna_existe
+    FROM ALL_TAB_COLUMNS
+    WHERE OWNER = 'ROOTSISREC'
+      AND TABLE_NAME = 'AI_REC_RECOMENDACIONES'
+      AND COLUMN_NAME = 'ARERE_EVIDENCIA_REQUERIDA';
+
+    IF columna_existe = 0 THEN
+        EXECUTE IMMEDIATE 'ALTER TABLE ROOTSISREC.AI_REC_RECOMENDACIONES ADD (ARERE_EVIDENCIA_REQUERIDA VARCHAR2(2000 CHAR))';
+    END IF;
+END;
+/

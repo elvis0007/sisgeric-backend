@@ -1,0 +1,16 @@
+package ec.com.eeasa.wssisrec.wssisrec.features.reportes.AuditorInternoJefe.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Reporte2Body {
+    private String fechaInicio;
+    private String fechaFin;
+    private int estadoSeguimiento;
+    private String dpto;
+    private String auditor_responsable;
+}

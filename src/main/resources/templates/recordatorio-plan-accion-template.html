@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordatorio Plan de Acción - SISREC</title>
+</head>
+
+<body style="background-color: #F4F6F9; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; -webkit-font-smoothing: antialiased;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #F4F6F9; margin: 0; padding: 30px 10px;">
+        <tr>
+            <td align="center">
+                <!-- Contenedor Principal Card -->
+                <table style="width: 100%; max-width: 650px; background-color: #ffffff; border-collapse: collapse; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); margin: 0 auto; border: 1px solid #E2E8F0;">
+                    
+                    <!-- Encabezado Institucional -->
+                    <tr>
+                        <td style="background-color: #192A67; padding: 25px 30px 20px 30px; text-align: center;">
+                            <h1 style="color: #ffffff; font-size: 20px; font-weight: 700; margin: 0; letter-spacing: 0.5px; line-height: 1.3;">
+                                SISREC — UNIDAD DE AUDITORÍA INTERNA
+                            </h1>
+                            <p style="color: #93C5FD; font-size: 13px; margin: 6px 0 0 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">
+                                Empresa Eléctrica Ambato Regional Centro Norte S.A.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Barra de Asunto y Fecha -->
+                    <tr>
+                        <td style="background-color: #F8FAFC; padding: 15px 30px; border-bottom: 2px solid #E2E8F0;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td>
+                                        <h2 style="color: #B45309; font-size: 15px; margin: 0; font-weight: 700; display: flex; align-items: center;">
+                                            &#9888; RECORDATORIO: REGISTRO DE PLAN DE ACCIÓN
+                                        </h2>
+                                    </td>
+                                    <td align="right" style="color: #64748B; font-size: 12px;">
+                                        Generado: <strong style="color: #334155;">{{fecha}}</strong>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Saludo y Notificación -->
+                    <tr>
+                        <td style="padding: 25px 30px 15px 30px;">
+                            <p style="color: #334155; font-size: 15px; line-height: 1.6; margin: 0 0 15px 0;">
+                                Estimado(a) <strong style="color: #0F172A;">{{nombres}} {{apellidos}}</strong>,
+                            </p>
+                            <p style="color: #334155; font-size: 14px; line-height: 1.6; margin: 0; text-align: justify;">
+                                Se le recuerda que se encuentra próximo a vencer el plazo para la formulación y registro del <strong>Plan de Acción</strong> en el sistema SISREC correspondiente a la(s) recomendación(es) bajo su responsabilidad en el siguiente informe:
+                            </p>
+                            <div style="margin-top: 14px; padding: 14px 18px; background-color: #F1F5F9; border-left: 4px solid #192A67; border-radius: 4px;">
+                                <p style="margin: 0; color: #1E293B; font-size: 14px; font-weight: 600; line-height: 1.4;">
+                                    {{tituloInforme}}
+                                </p>
+                                <p style="margin: 5px 0 0 0; color: #64748B; font-size: 13px;">
+                                    Memorando: <strong style="color: #1E293B;">{{memoAprobacion}}</strong>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Tabla de Recomendaciones Pendientes de Plan de Acción -->
+                    <tr>
+                        <td style="padding: 10px 30px 20px 30px;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: 1px solid #CBD5E1; border-radius: 6px; overflow: hidden;">
+                                <thead>
+                                    <tr style="background-color: #192A67;">
+                                        <th style="padding: 12px 14px; text-align: left; color: #ffffff; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">
+                                            Recomendación(es) pendiente(s) de Plan de Acción
+                                        </th>
+                                        <th style="padding: 12px 14px; text-align: center; color: #ffffff; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; width: 140px;">
+                                            Fecha Máxima
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {{recomendaciones}}
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Alerta de Urgencia (1 hora restante) -->
+                    <tr>
+                        <td style="padding: 0 30px 25px 30px;">
+                            <div style="background-color: #FFFBEB; border-left: 4px solid #F59E0B; border-radius: 6px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td>
+                                            <p style="margin: 0 0 8px 0; color: #92400E; font-size: 14px; font-weight: 700;">
+                                                &#9200; Tiempo límite por expirar (Aprox. 1 hora restante)
+                                            </p>
+                                            <p style="margin: 0; color: #78350F; font-size: 13px; line-height: 1.5; text-align: justify;">
+                                                Le resta aproximadamente <strong>1 hora</strong> para registrar su Plan de Acción. Recuerde que el Plan de Acción es un requisito previo indispensable para planificar las actividades y poder subir posteriormente los verificables de cumplimiento.
+                                            </p>
+                                            <div style="margin-top: 15px; text-align: center;">
+                                                <a href="https://app.eeasa.com.ec/sisrec" target="_blank"
+                                                    style="display: inline-block; background-color: #192A67; color: #ffffff; text-decoration: none; padding: 11px 24px; border-radius: 6px; font-size: 13px; font-weight: 700; letter-spacing: 0.5px; box-shadow: 0 2px 8px rgba(25, 42, 103, 0.25);">
+                                                    Ingresar a SISREC y Registrar Plan de Acción &rarr;
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Pie de Página -->
+                    <tr>
+                        <td style="background-color: #F8FAFC; padding: 20px 30px; border-top: 1px solid #E2E8F0; text-align: center;">
+                            <p style="color: #64748B; font-size: 12px; margin: 0; line-height: 1.5;">
+                                Mensaje generado automáticamente por el sistema <strong>SISREC</strong>.<br>
+                                Por favor no responda a este correo electrónico.
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
